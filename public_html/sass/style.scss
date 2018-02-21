@@ -1,0 +1,16 @@
+#container {
+    width:100%;
+    height:100px; 
+}
+
+@mixin generation($N, $ColorStart,$ColorEnd){ // Mixin towrzący N styli przechodzących z koloru początkowego do końcowego 
+    @for $i from 0 to $N {
+    .coloredDiv-#{$i + 1} {
+        height:100px;
+        width: 100px;
+        float:left;
+        background: mix($ColorEnd, $ColorStart, percentage($i / ($N - 1)));
+    }
+}
+}
+@include generation (10,green,red)

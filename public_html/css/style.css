@@ -1,0 +1,23 @@
+#container { width: 100%; height: 100px; }
+
+.coloredDiv-1 { height: 100px; width: 100px; float: left; background: green; }
+
+.coloredDiv-2 { height: 100px; width: 100px; float: left; background: #1c7200; }
+
+.coloredDiv-3 { height: 100px; width: 100px; float: left; background: #396400; }
+
+.coloredDiv-4 { height: 100px; width: 100px; float: left; background: #555500; }
+
+.coloredDiv-5 { height: 100px; width: 100px; float: left; background: #714700; }
+
+.coloredDiv-6 { height: 100px; width: 100px; float: left; background: #8e3900; }
+
+.coloredDiv-7 { height: 100px; width: 100px; float: left; background: #aa2b00; }
+
+.coloredDiv-8 { height: 100px; width: 100px; float: left; background: #c61c00; }
+
+.coloredDiv-9 { height: 100px; width: 100px; float: left; background: #e30e00; }
+
+.coloredDiv-10 { height: 100px; width: 100px; float: left; background: red; }
+
+/*# sourceMappingURL=style.css.map */
